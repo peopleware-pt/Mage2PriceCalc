@@ -1,0 +1,22 @@
+{
+    "name": "peopleware/module-mage2pricecalc",
+    "description": "User formula to calc final price",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Peopleware\\Mage2PriceCalc\\": ""
+        }
+    }
+}
